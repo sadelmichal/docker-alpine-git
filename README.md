@@ -1,5 +1,3 @@
-# docker-alpine-git
+Alpine based docker image with git, openssh, rsync installed. Used as part of our build pipeline.
 
-Alpine based docker image with git installed. Used as part of our build pipeline.
-
-Available on Docker Hub @ [bravissimolabs/alpine-git](https://hub.docker.com/r/bravissimolabs/alpine-git)
+Forked from [Bravissimo Labs](https://github.com/bravissimolabs/docker-alpine-git)

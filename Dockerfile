@@ -1,5 +1,5 @@
-FROM gliderlabs/alpine:3.3
-MAINTAINER Adam K Dean <adamkdean@googlemail.com>
+FROM gliderlabs/alpine:3.4
+MAINTAINER Michal Sadel <sadel.michal@gmail.com>
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache bash git openssh
+    apk add --no-cache bash git openssh rsync
